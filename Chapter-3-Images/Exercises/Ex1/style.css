@@ -56,7 +56,7 @@ hr {
     height: 450px;
     justify-content: center;
     transition: 1s;
-    filter: grayscale(2);
+    filter: grayscale(3);
 }
 .c1:hover {
     filter: grayscale(0);
@@ -89,10 +89,10 @@ hr {
     height: 450px;
     justify-content: center;
     transition: 1s;
-    filter: grayscale(2);
+    filter: invert(50%);
 }
 .c2:hover {
-    filter: grayscale(0);
+    filter: invert(0%);
 }
 .img2 {
     color: white;
@@ -102,7 +102,8 @@ hr {
     margin-top: 1rem;
 }
 .img2:hover {
-    filter: grayscale(0);
+    filter: invert(0%);
+    background-color: #2b0505
 }
 .img2 h4 {
     font-size: 1.4rem;
@@ -126,10 +127,10 @@ hr {
     height: 450px;
     justify-content: center;
     transition: 1s;
-    filter: grayscale(2);
+    filter: blur(5px)
 }
 .c3:hover {
-    filter: grayscale(0);
+    filter: blur(0px);
 }
 .img3 {
     color: white;
@@ -139,7 +140,7 @@ hr {
     margin-top: 1rem;
 }
 .img3:hover {
-    filter: grayscale(0);
+    filter: blur(0px);
 }
 .img3 h4 {
     font-size: 1.4rem;
