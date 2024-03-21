@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML &amp; CSS Resource page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--I reused the navbar code from chap 1 ex1-->
+    <div id = "container1">
+        <div id = "bg1">
+            <div class ="topnav">
+                <nav>
+                    <ul><!--active navbar that redirects-->
+                        <li><a href="#basic">HTML</a></li>
+                        <li><a href="#css">CSS</a></li>
+                        <li><a href="#vids">Videos</a></li>
+                        <li><a href="#foot">About</a></li>
+                    </ul> 
+                </nav>
+            </div>
+        </div>
+        <!--Simple main page-->
+        <div id = "fptitle">
+            <h1>HTML &amp; CSS Resource guide</h1> 
+            <h2></h2>
+        </div>
+        <div id ="fpsubtitle">
+            <p>
+                A collection of HTML and CSS code guides to help beginners start their journey to coding.<br>
+                This guides provides the basics and a few extras to help further enhance your basic coding skills.
+            </p>
+        </div>
+    </div>
+
+    <hr>
+    <!--1st part the beasic HTML structure-->
+    <div class = "bg">
+        <section id = "basic">
+            <figure id="basicimg">
+                <img src="img/basic.png" alt="Basic html structure">
+                <figcaption style="text-align: center;">A Basic Html Website</figcaption>
+            </figure>
+
+            <div class = "basictags"><!--A must know for beginners-->
+                <h3>
+                    Basic HTML Tags
+                </h3><br>
+                <ol type="1">
+                    <li><h4>!DOCTYPE</h4><br>
+                    This is the very first tag in an HTML document, it defines <br>
+                    the document type.</li>
+                    <pre><code>Example: &lt;!DOCTYPE&gt;</code></pre><br>
+
+                    <li><h4>HTML</h4><br>
+                    This tag defines the HTML Document.</li>    
+                    <pre><code>Example: &lt;html&gt;...&lt;/html&gt;</code></pre><br>
+
+                    <li><h4>Head</h4><br>
+                    This tag contains the metadata/information for the document.</li>
+                    <pre><code>Example: &lt;head&gt;...&lt;/head&gt;</code></pre><br>
+
+                    <li><h4>Body</h4><br>
+                    This tag defines the documents body and contents.</li>
+                    <pre><code>Example: &lt;body&gt;...&lt;/body&gt;</code></pre><br>
+
+                    <li><h4>Paragraph</h4><br>
+                    This is the paragraph tag which is placed inside the body.</li>
+                    <pre><code>Example: &lt;p&gt;...&lt;/p&gt;</code></pre><br>
+                </ol>
+            </div>
+        </section>
+
+        <hr>
+
+        <!--Heading tags-->
+        <div class= "headerstag">
+            <p><b>
+                HTML Headings
+            </b></p><br>
+            <ol type="1">
+                <li><h1>Heading 1</h1></li>
+                <div class = "box">
+                    <pre><code>Example: &lt;h1&gt;Heading 1&lt;/h1&gt;</code></pre><br>
+                </div><br>
+
+                <li><h2>Heading 2</h2></li>
+                <div class = "box">
+                    <pre><code>Example: &lt;h2&gt;Heading 2&lt;/h2&gt;</code></pre><br>
+                </div><br>
+
+                <li><h3>Heading 3</h3></li>
+                <div class = "box">
+                    <pre><code>Example: &lt;h3&gt;Heading 3&lt;/h3&gt;</code></pre><br>
+                </div><br>
+
+                <li><h4>Heading 4</h4></li>
+                <div class = "box">
+                    <pre><code>Example: &lt;h4&gt;Heading 4&lt;/h4&gt;</code></pre><br>
+                </div><br>
+
+                <li><h5>Heading 5</h5></li>
+                <div class = "box">
+                    <pre><code>Example: &lt;h5&gt;Heading 5&lt;/h5&gt;</code></pre><br>
+                </div><br>
+
+                <li><h6>Heading 6</h6></li>
+                <div class = "box">
+                    <pre><code>Example: &lt;h6&gt;Heading 6&lt;/h6&gt;</code></pre><br>
+                </div><br>
+            </ol>
+        </div>
+
+        <hr>
+
+        <!--Text formatting tags-->
+        <div class="textfcontainer">
+            <div class = "textf">
+                <p><b>Text Formatting</b></p>
+                <br>
+                <ol type="1">
+                    <li><h4>Bold</h4></li>
+                    <div class="box">
+                        <pre><code>Example: &lt;b&gt;bold text&lt;/b&gt;</code></pre>
+                    </div>
+                    <br>
+                    <li><h4>Emphasize</h4></li>
+                    <div class="box">
+                        <pre><code>Example: &lt;em&gt;emphasized text&lt;/em&gt;</code></pre>
+                    </div>
+                    <br>
+                    <li><h4>Italic</h4></li>
+                    <div class="box">
+                        <pre><code>Example: &lt;i&gt;italic text&lt;/i&gt;</code></pre>
+                    </div>
+                    <br>
+                    <li><h4>Strong</h4></li>
+                    <div class="box">
+                        <pre><code>Example: &lt;strong&gt;strong text&lt;/strong&gt;</code></pre>
+                    </div>
+                    <br>
+                    <li><h4>Mark</h4></li>
+                    <div class="box">
+                        <pre><code>Example: &lt;mark&gt;marked text&lt;/mark&gt;</code></pre>
+                    </div>    
+                    <br>
+                    <li><h4>Subsript</h4></li>
+                    <div class="box">
+                        <pre><code>Example: &lt;sub&gt;subscripted text&lt;/sub&gt;</code></pre>
+                    </div>
+                    <br>
+                    <li><h4>Superscript</h4></li>
+                    <div class="box">
+                        <pre><code>Example: &lt;sup&gt;superscripted text&lt;/sup&gt;</code></pre>
+                    </div>
+                    <br>
+                </ol>
+            </div>
+
+        <div class = "tfimg">
+            <img src="img/textf.png" alt="text formatting examples" height="600px" width="500px">
+        </div>
+        </div>
+
+        <hr>
+
+        <!--Collection of different tags that have been discussed in class-->
+        <div class = "atag">
+            <h3>Anchor tag</h3>
+            <p>Defines a hyperlink, which is used to link from one page to another. The most important attribute of the &lt;a&gt; element is the<br>
+                href attribute, which indicates the link's destination.
+            </p>
+            <br>
+            <div class="box1">
+                <pre><code>Example: &lt;a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"&gt;My Favorite Song&lt;/a&gt;</code></pre>
+                <br>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">My Favorite Song</a>
+            </div>
+        </div>
+
+        <div class = "ftag">
+            <h3>Footer tag</h3>
+            <p>
+                This tag defines a footer for a document or section.
+            </p>
+            <br>
+            <div class="box2">
+                <pre><code>Example: &lt;footer&gt;Copyright&copy; All Rights Reserved&lt;/footer&gt;</code></pre>
+            </div>
+        </div>
+
+        <!--DIV TAG-->
+        <div class = "divtag">
+            <h3>Division tag</h3>
+            <p>
+                This tag defines a division or a section in an HTML document. Also used as a container for HTML elements - which is then <br>
+                styled with CSS or manipulated with JavaScript. This tag is easily styled by using the class or id attribute
+            </p>
+            <br>
+            <div class="box3">
+                <pre><code>Example: <br>
+                    &lt;div class = "text1"&gt;<br>
+                        &lt;p&gt;Bob says Hello&lt;/p&gt; <br>
+                    &lt;/div&gt;</code></pre>
+            </div>
+        </div>
+
+        <!--IMG TAG-->
+        <div class = "imgtag">
+            <h3>Image tag</h3>
+            <p>
+                This tag is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are <br>
+                linked to web pages. The &lt;img&gt; tag creates a holding space for the referenced image. <br><br>
+                It has two required attributes:
+                <ul>
+                    <li>src - Specifies the path to the image</li>
+                    <li>alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed</li>
+                </ul>
+            </p>
+            <br>
+            <div class="box4">
+                <pre><code>Example: &lt;img src="img/howl.jpg" alt="howls moving castle" height="200" width="400"&gt;</code></pre><br><br>
+                <img src="img/howl.jpg" alt="howls moving castle" height="200" width="400">
+            </div>
+        </div>
+
+        <hr>
+
+        <!--CSS Section-->
+        <section id ="css">
+            <div class = "css">
+                <figure id="cssimg">
+                    <img src="img/css.png" alt="What is CSS?">
+                </figure>
+                <h3>What is Cascading Stylesheets (CSS)?</h3>
+                <p>CSS is the language we use to style an HTML document. <br>
+                    CSS describes how HTML elements should be displayed.
+                </p>
+            </div>
+
+            <!--Different stylings that can be used when coding :))-->
+            <div class = "in">
+                <h3>Inline Styling</h3>
+                <p>
+                    Inline CSS styles an individual HTML element by adding a style attribute on the element's opening tag.
+                </p>
+            <div class="box5">
+                <img src="img/inimg.png" alt="inline Styling" height="30" width="600">
+            </div>
+            </div>
+
+            <div class = "ins">
+                <h3>Internal Styling</h3>
+                <p>
+                    Internal CSS styles an HTML page's content by adding an HTML &lt;style&gt; element in the &lt;head&gt; section of <br>
+                    the HTML document.
+                </p>
+            <div class="box6">
+                <img src="img/insimg.png" alt="internal Styling" height="250" width="400">
+            </div>
+            </div>
+
+            <div class = "exs">
+                <h3>External Styling</h3>
+                <p>
+                    External CSS styles one or more HTML pages' content by linking the HTML document to an external stylesheet.
+                </p>
+            <div class="box7">
+                <img src="img/eximg.png" alt="external Styling" height="250" width="350">
+            </div>
+            </div>
+
+            <!--when desgining using CSS colors are a must-->
+            <div class = "color">
+                <h3>CSS Colors</h3>
+                <p>
+                    Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values. You can change the colors of <br>
+                    the background, text, border color, and etc.
+                </p>
+                <ul>
+                    <li><b>Background-color</b><br>- You can set the background color for HTML elements</li>
+                    <li><b>Font color</b><br>- Setting the color of the text</li>
+                    <li><b>Border-color</b><br>- Setting the color of borders</li>
+                </ul>
+
+            <!--COLLECTION OF EXAMPLES AND PRE CODE-->
+            <div class="box8">
+                <pre><code>Example: Changing background color using color names <br>
+                    &lt;h1 style="background-color:Tomato;"&gt;Tomato&lt;/h1&gt;
+                    &lt;h1 style="background-color:Orange;"&gt;Orange&lt;/h1&gt;
+                    &lt;h1 style="background-color:DodgerBlue;"&gt;DodgerBlue&lt;/h1&gt;
+                    &lt;h1 style="background-color:MediumSeaGreen;"&gt;MediumSeaGreen&lt;/h1&gt;
+                    &lt;h1 style="background-color:Gray;"&gt;Gray&lt;/h1&gt;
+                    &lt;h1 style="background-color:SlateBlue;"&gt;SlateBlue&lt;/h1&gt;
+                    &lt;h1 style="background-color:Violet;"&gt;Violet&lt;/h1&gt;
+                    &lt;h1 style="background-color:LightGray;"&gt;LightGray&lt;/h1&gt;
+                </code></pre><br>
+                <img src="img/Screenshot 2024-03-21 181552.png" alt="Colors" height="250" width="350">
+                <br><br>
+                <pre><code>Example: Changing font color using RGB <br>
+                    &lt;h1 style="color: rgb(201, 16, 16)"&gt;Tomato&lt;/h1&gt;
+                    &lt;h1 style="color: rgb(201, 99, 16)"&gt;Orange&lt;/h1&gt;
+                    &lt;h1 style="color: rgb(16, 84, 201)"&gt;Blue&lt;/h1&gt;
+                    &lt;h1 style="color: rgb(16, 201, 84)"&gt;Green&lt;/h1&gt;
+                    &lt;h1 style="color: rgb(149, 156, 151)"&gt;Gray&lt;/h1&gt;
+                    &lt;h1 style="color: rgb(92, 24, 195)"&gt;Violet&lt;/h1&gt;
+                    &lt;h1 style="color: rgb(195, 193, 198)"&gt;LightGray&lt;/h1&gt;
+                </code></pre><br>
+                <img src="img/fc.png" alt="font colors" height="350" width="300">
+                <br><br>
+                <pre><code>Example: Changing border color using HEX codes <br>
+                    &lt;h1 style="border: 2px solid #B83535;"&gt;Red&lt;/h1&gt;
+                    &lt;h1 style="border: 2px solid #0000ff;"&gt;Blue&lt;/h1&gt;
+                    &lt;h1 style="border: 2px solid #ffff66;"&gt;Yellow&lt;/h1&gt;
+                </code></pre><br>
+                <img src="img/bc.png" alt="font colors" height="130" width="550">
+            </div>
+            </div>
+
+            <!--font stylings and different types of fonts-->
+            <div class = "font">
+                <h3>CSS Font Properties</h3>
+                <p>
+                    Styling the fonts of the text in the HTML file.
+                </p>
+                <ul>
+                    <li><b>Normal</b> - The text is shown normally</li>
+                    <li><b>Italic</b> - The text is shown in italics</li>
+                    <li><b>Oblique</b> - The text is "leaning" (oblique is very similar to italic, but less supported)</li>
+                </ul>
+            <div class="box9">
+                <pre><code>Example of font style property: <br>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                    &lt;head&gt;
+                    &lt;style&gt;
+                        p.normal {
+                        font-style: normal;
+                        }
+
+                        p.italic {
+                        font-style: italic;
+                        }
+
+                        p.oblique {
+                        font-style: oblique;
+                        }
+                    &lt;/style&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+
+                    &lt;h1&gt;The font-style property&lt;/h1&gt;
+
+                    &lt;p class="normal">This is a paragraph in normal style.&lt;/p&gt;
+                    &lt;p class="italic">This is a paragraph in italic style.&lt;/p&gt;
+                    &lt;p class="oblique">This is a paragraph in oblique style.&lt;/p&gt;
+
+                    &lt;/body&gt;>
+                    &lt;/html&gt;
+                </code></pre>
+                <img src="img/ss.png" alt="font serif vs sans serif" height="200" width="400">
+            </div>
+            </div>
+
+            <!--Font families-->
+            <!--Serif VS Sans-serif-->
+            <div class = "fs">
+                <h3>Font Families</h3>
+                <ol type="1">
+                    <li><b>Serif</b>  fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.</li>
+                    <li><b>Sans-serif</b>  fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.</li>
+                    <li><b>Monospace fonts</b> - here all the letters have the same fixed width. They create a mechanical look. </li>
+                    <li><b>Cursive fonts</b>  imitate human handwriting.</li>
+                    <li><b>Fantasy fonts</b>  are decorative/playful fonts.</li>
+                </ol>
+            <div class="box10">
+                <img src="img/f.png" alt="font serif vs sans serif" height="400" width="700">
+            </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!--vids that can help beginners further learn HTML and CSS-->
+        <!--really effective!-->
+        <section id = "vids">
+            <div class = "v">
+                <h3>Videos</h3>
+            </div>
+            <figure>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU?si=TyKdVLGMAIhcgIJ-" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                    picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                <figcaption>Learn HTML For beginners</figcaption>
+            </figure>
+            <br><br>
+            <figure>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OXGznpKZ_sA?si=sEJLjb90qks2uGyA" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                <figcaption>Learn CSS For Beginners</figcaption>
+            </figure>
+        </section><br><br><br><br>
+
+        <hr>
+
+        <!--footers section and the last page-->
+        <section id = "foot">
+            <footer>
+                <p>
+                    Copyright&copy; All Rights Reserved. 2024 
+                    <a href="https://www.w3schools.com/">W3Schools</a><br>
+                    Made by: Aliah Mae Ortiz
+                </p>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>
+<!--THE ENDDDD -->
+<!-- i finished at 12:41 AM :(-->
