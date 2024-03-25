@@ -1,0 +1,27 @@
+/*div a*/
+#a {
+    border-color: blueviolet;
+    box-shadow: 1rem 1rem 0.8rem red;/*it took a while to figure this out*/
+}
+
+/*div b*/
+#b {
+    border-color: lawngreen;
+    box-shadow: inset 0.8rem 0.8rem 0.5rem black;
+}
+
+/*div c*/
+#c {
+    border-color: orange;
+    border-radius: 1rem;
+    /* figured this one out after div a, still was a challenge*/
+    box-shadow: 0 0 0 0.7rem blue, 0 0 0 1.4rem red, 0 0 0 1.9rem green;
+}
+
+/*div d*/
+#d {
+    border-color: red;
+    text-shadow: 0.3rem 0.3rem 0.1rem black;
+    
+}
+/*THE END :)*/
