@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+/*background img for design*/
+.bg {
+    background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url(img/Ghibli\ Inspired\ Wallapaper.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*main container for the calc*/
+.pcon {
+    width: 32rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28rem;
+    background-color: #4C0506;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0#260203;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+} 
+.pcon h1 { /*title*/
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 4.4rem;
+}
+hr { /*design*/
+    height: 0.5rem;
+    background-color: white;
+    width: 25rem;
+    margin-bottom: 1.5rem;
+}
+.petrolf {
+    margin-bottom: 1rem;
+}
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+input {
+    width: 25rem;
+    padding: 0.6rem;
+    padding-left: 1rem;
+    border: 2rem;
+    border-radius: 1rem;
+    color: #0B090A;
+}
+input:hover {
+    border-color: #0B090A;
+}
+
+/*the one and only button :D*/
+button {
+    margin-top: 1rem;
+    display: block;
+    width: 7rem;
+    padding: 0.7rem;
+    background-color: #260203;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 8.5rem;
+}
+button:hover {
+    background-color: black;
+}
+
+/*pop-up of the total */
+.total {
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    background-color: #4C0506;
+    width: 25rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.total:hover {
+    background-color: #260203;
+}
+/*THE END*/
+/*>:D*/

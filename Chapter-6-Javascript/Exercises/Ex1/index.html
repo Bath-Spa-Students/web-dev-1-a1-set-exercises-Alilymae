@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6- Javascript</title>
+    <link rel="stylesheet" href="style.css"><!--connecting the css-->
+</head>
+<body>
+    <!--connecting the js-->
+    <script src="func.js"></script>
+
+    <!--background for design-->
+    <div class="bg">
+        <!--main div for the petrol container-->
+        <br><br><br><br><br><br>
+        <!--container-->
+        <div class="pcon">
+            <h1>Petrol Calculator</h1><!--title-->
+            <hr>
+            <form id="petrolf"><!--form -->
+                <div class="form">
+                    <!--label for the petrol cost input-->
+                    <label for="costp">Cost of Petrol per Liter:</label>
+                    <!--min input 0.01 with the set value 1.72-->
+                    <input type="number" id="cpl" min = "0.01" step="0.01" value="1.72" required >
+                </div>
+                <br>
+                <div class="form2">
+                    <!--label for the liters purchased input-->
+                    <label for="litersp">Number of Liters purchased:</label>
+                    <!--min input 0 with no set value-->
+                    <input type="number" id="litersp" min="0" step="0.01" value="0" required>
+                </div>
+                <!--calculate button-->
+                <button id="calc">Calculate</button>
+                <hr>
+            </form>
+            <!--message of the total-->
+            <p class="total"></p>
+        </div>
+    </div>
+</body>
+</html>
+<!--THE END-->
