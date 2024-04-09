@@ -13,8 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
   /*when the button calculate is pressed, the code below this line 
   will execute*/ 
   calculate.addEventListener("click", function(event) { 
-    event.preventDefault(); /*to prevent the default values from getting
-    executed when the pages load*/
+    event.preventDefault(); //to prevent the default values from getting executed when the pages load
 
     //converts the input into float
     const cpl = parseFloat(inputcpl.value);
